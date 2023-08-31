@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The coffee shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville&family=Merriweather:wght@700&family=Montserrat&family=Narnoor&family=Pushster&family=Russo+One&family=Sacramento&family=Varela+Round&display=swap" rel="stylesheet">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+   
+    <div class="all-content">
+           <div class="nobg">
+          <!-- navbar start  -->
+
+                <nav id="navbar">
+                  <a href="#" class="logo"><img src="images/logo.png"></a>
+                  <div class="links" id="nav">
+                      <a href="#">Home</a>
+                      <a href="#about">About</a>
+                      <a href="#services">Services</a>
+                      <a href="#products">Products</a>
+                      <a href="#menu">Menu</a>
+                      <a href="#contact">Contact</a>
+                      <a href="#blogs">Blogs</a>
+                  </div>
+                  <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+                  <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+                </nav>
+                
+              </div>
+            
+
+          <!-- navbar end  -->
+
+
+          <!-- home section start -->
+
+                   <div id="home">
+                       <video id="video" src="video/new.mp4" autoplay muted loop></video>
+                          <div class="container contain">
+                              <h1>A CUP OF COMFORT<br><span>ANYTIME, ANYWHERE.</span></h1>
+                              <a href="#products" class="button" style="text-decoration: none;"><strong>SHOP  NOW</strong></a>
+                          </div>
+                    </div>     
+
+          <!-- home section end -->
+
+         <div class="bg">
+          <!-- about setion start -->
+                    <section class="about" id="about">
+                       <div class="container">
+                        <div class="image">
+                             <img src="images/coffee.jpg">
+                          </div>
+                          <div class="about-content">
+                              <h2>What makes our coffee special ?</h2>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                              <a href="#" class="button" style="text-decoration: none;"><strong>ABOUT US</strong></a>
+                          </div>
+                        </div>
+                        
+                    </section>
+          <!-- about section end -->
+
+          
+          <!-- service section start -->
+               <section class="services" id="services">
+                      <div class="bg-service">
+                          <div class="service-one">
+                              <img src="images/service1.jpg">
+                                  <div class="overlay">
+                                       <div class="over-txt">
+                                              <p>for drinks</p>
+                                              <h4>coffee & drinks</h4>
+                                       </div>
+                                  </div>
+                          </div>
+
+                          <div class="service-one">
+                            <img src="images/service2.jpg">
+                                <div class="overlay">
+                                     <div class="over-txt">
+                                            <p>for entertainment</p>
+                                            <h4>beans & sweets</h4>
+                                     </div>
+                                </div>
+                        </div>
+
+                        <div class="service-one">
+                          <img src="images/service3.jpg">
+                              <div class="overlay">
+                                   <div class="over-txt">
+                                          <p>for food</p>
+                                          <h4>croissant & cakes</h4>
+                                   </div>
+                              </div>
+                      </div>
+                      </div>
+                    </section>
+    
+            <!-- service section end -->
+
+            <!-- products section start -->
+
+                        <section class="products" id="products">
+                            <div class="bg-shop">
+                                <div class="shop-links">
+                                       <div>
+                                          <h2>products</h2>
+                                       </div>
+                                       <div class="links">
+                                           <li class="filter" data-filter="all">all</li>
+                                           <li class="filter" data-filter=".coffee">coffee</li>
+                                           <li class="filter" data-filter=".machines">machines</li>
+                                       </div>
+                                </div>
+                                <div class="shop-flex consts">
+                                    <div class="shop1 mix coffee">
+                                      <div class="shop-img">
+                                        <img src="images/picture-1.png">
+                                        <div class="price">
+                                            -7%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>hot coffee</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$32.00</article>
+                                      <span>$45.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix coffee">
+                                      <div class="shop-img">
+                                        <img src="images/picture-2.png">
+                                        <div class="price">
+                                            -12%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>hot coffee</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$82.00</article>
+                                      <span>$95.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix coffee">
+                                      <div class="shop-img">
+                                        <img src="images/picture-3.png">
+                                        <div class="price">
+                                            -13%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>hot coffee</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$84.00</article>
+                                      <span>$102.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix coffee">
+                                      <div class="shop-img">
+                                        <img src="images/picture-4.png">
+                                        <div class="price">
+                                            -6%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>hot coffee</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$66.00</article>
+                                      <span>$85.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix machines">
+                                      <div class="shop-img">
+                                        <img src="images/m1.png">
+                                        <div class="price">
+                                            -20%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>coffee machines</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$203.00</article>
+                                      <span>$250.00</span>
+                                    </div>
+
+                                    <div class="shop1  mix machines">
+                                      <div class="shop-img">
+                                        <img src="images/m2.png">
+                                        <div class="price">
+                                            -5%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>coffee machines</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                      </div>
+                                      <article>$265.00</article>
+                                      <span>$293.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix machines">
+                                      <div class="shop-img">
+                                        <img src="images/m3.png">
+                                        <div class="price">
+                                            -7%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>coffee machines</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$160.00</article>
+                                      <span>$192.00</span>
+                                    </div>
+
+                                    <div class="shop1 mix coffee">
+                                      <div class="shop-img">
+                                        <img src="images/m4.png">
+                                        <div class="price">
+                                            -15%
+                                        </div>
+                                        <div class="social">
+                                          <a href="#"><i class="far fa-heart"></i></a>
+                                          <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                          <a href="#"><i class="fa-solid fa-share-nodes"></i></a>
+                                          <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                                        </div>
+                                      </div>
+                                      <h2>hot coffee</h2>
+                                      <div class="stars">
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="fas fa-star gold"></i>
+                                        <i class="far fa-star"></i>
+                                      </div>
+                                      <article>$28.00</article>
+                                      <span>$66.00</span>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                        </section>
+                  <!-- product section end -->
+
+                  <!-- menu section start  -->
+                    <section class="menu" id="menu">
+                    <div class="bg-menu">
+                      <div class="menu-title">
+                         <section>Step into a world of coffee delights.</section>
+                         <h2>Your coffee adventure starts here.</h2>
+                         <hr>
+                      </div>
+                        <div class="menu-flex">
+                        <div class="menu1">
+                        <div class="small-img">
+                          <img src="images/cup1.jpg">
+                        </div>
+                        <div> <h4>caffee latte</h4> </div>
+                          <div class="line"></div>
+                          <div><h4>$4.00</h4></div>
+                        </div>
+
+                        <div class="menu1">
+                          <div class="small-img">
+                            <img src="images/cup2.jpg">
+                          </div>
+                          <div> <h4>caffee latte</h4> </div>
+                            <div class="line"></div>
+                            <div><h4>$4.90</h4></div>
+                          </div>
+
+                          <div class="menu1">
+                            <div class="small-img">
+                              <img src="images/cup9.jpg">
+                            </div>
+                            <div> <h4>caffee latte</h4> </div>
+                              <div class="line"></div>
+                              <div><h4>$2.00</h4></div>
+                            </div>
+
+                            <div class="menu1 no">
+                              <div class="small-img">
+                                <img src="images/cup4.jpg">
+                              </div>
+                              <div> <h4>caffee latte</h4> </div>
+                                <div class="line"></div>
+                                <div><h4>$5.00</h4></div>
+                              </div>
+
+                              <div class="menu1 no">
+                                <div class="small-img">
+                                  <img src="images/cup5.jpg">
+                                </div>
+                                <div> <h4>caffee latte</h4> </div>
+                                  <div class="line"></div>
+                                  <div><h4>$4.99</h4></div>
+                                </div>
+
+                                <div class="menu1 no">
+                                  <div class="small-img">
+                                    <img src="images/cup6.jpg">
+                                  </div>
+                                  <div> <h4>caffee latte</h4> </div>
+                                    <div class="line"></div>
+                                    <div><h4>$3.90</h4></div>
+                                  </div>
+
+                                  <div class="menu1 no">
+                                    <div class="small-img">
+                                      <img src="images/cup7.jpg">
+                                    </div>
+                                    <div> <h4>caffee latte</h4> </div>
+                                      <div class="line"></div>
+                                      <div><h4>$2.89</h4></div>
+                                    </div>
+
+                                    <div class="menu1 no">
+                                      <div class="small-img">
+                                        <img src="images/cup8.jpg">
+                                      </div>
+                                      <div> <h4>caffee latte</h4> </div>
+                                        <div class="line"></div>
+                                        <div><h4>$5.00</h4></div>
+                                      </div>
+                  
+                   </div> 
+                   <div class="menu-link"><a href="#">View menu</a></div>
+                   </div>
+                    </section>
+                  <!-- menu section end -->
+
+                  <!-- contact section start -->
+
+                        <section class="con" id="contact">
+                             <div class="contact-in">
+                                <div class="contact-map">
+                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.7483514114933!2d75.14956267522597!3d27.60133047624347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396ca50fcd4ff9dd%3A0xdfdbf9d4b7165c0f!2sForest%20Deck!5e0!3m2!1sen!2sin!4v1693395258531!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+                                <div class="contact-form">
+                                   <h2>Contact <span>Us</span></h2>
+                                   <form>
+                                      <input type="text" placeholder="Name" class="contact-form-txt">
+                                      <input type="text" placeholder="Email" class="contact-form-txt">
+                                      <textarea placeholder="Message" class="contact-form-txtarea"></textarea>
+                                      <input type="submit" placeholder="Submit" class="contact-form-btn">
+                                   </form>
+                                </div>
+                             </div> 
+                        </section>
+
+                  <!-- contact section end -->
+
+                  <!-- blog section starts -->
+
+                        <section class="blogs" id="blogs">
+                          <h2 class="heading"> Our <span>Blogs</span> </h2>
+                          <div class="box-container">
+                            <div class="box">
+                              <div class="image">
+                                <img src="images/blog1.jpg">
+                              </div>
+                              <div class="content">
+                                <a href="#" class="title">Sips and Stories</a>
+                                <span>by admin / 1st August, 2023</span>
+                                <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt aliqua.</p>
+                                <a href="#" class="btn">read more</a>
+                              </div>
+                            </div>
+
+                            <div class="box">
+                              <div class="image">
+                                <img src="images/blog2.jpg">
+                              </div>
+                              <div class="content">
+                                <a href="#" class="title">Coffee and Health</a>
+                                <span>by admin / 1st August, 2023</span>
+                                <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt aliqua.</p>
+                                <a href="#" class="btn">read more</a>
+                              </div>
+                            </div>
+
+                            <div class="box">
+                              <div class="image">
+                                <img src="images/blog3.jpg">
+                              </div>
+                              <div class="content">
+                                <a href="#" class="title">Coffee's Cultural Significance</a>
+                                <span>by admin / 1st August, 2023</span>
+                                <p>Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt aliqua.</p>
+                                <a href="#" class="btn">read more</a>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                  <!-- blog section end -->
+
+                  <!-- footer section start -->
+
+                        <section class="footer">
+                          <footer id="foo">
+                            <div class="footer-logo text-center"><img src="images/logo.png"></div>
+                            <div class="social-links text-center">
+                              <i class="fa-brands fa-twitter"></i>
+                              <i class="fa-brands fa-facebook-f"></i>
+                              <i class="fa-brands fa-instagram"></i>
+                              <i class="fa-brands fa-youtube"></i>
+                              <i class="fa-brands fa-pinterest-p"></i>
+                            </div>
+                            <div class="credits text-center">
+                              Designed By <a href="#"><span>Bhavya</span></a>
+                            </div>
+                            <div class="copyright text-center">
+                              &copy; Copyright <strong> <span>Coffee Shop</span></strong>. All Rights reserved
+                            </div>
+                          </footer>
+
+                          <a href="#" class="arrow"><i><img src="images/up-arrow.png" width="50px"></i></a>
+                        </section>
+                  <!-- footer section end -->
+      </div>  
+      </div>    
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script>
+      var mixer= mixitup('.consts');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
